@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-world-test
+  memory: 128M
+  instances: 1
+  disk_quota: 128M
+  command: /app/bin/hello-world-test
+  buildpack : https://github.com/cloudfoundry/go-buildpack.git
